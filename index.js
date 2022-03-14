@@ -26,6 +26,8 @@ console.log(atsakymas);
 let kitasVardas = 'Mano vardas Yra';
 console.log(kitasVardas.charAt(5));
 
-
+let vardas = 2;
+let vardas = 2;
+let vardas = 2;
 
 
