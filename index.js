@@ -26,6 +26,11 @@ console.log(atsakymas);
 let kitasVardas = 'Mano vardas Yra';
 console.log(kitasVardas.charAt(5));
 
+
+let vardas = 2;
+let vardas = 2;
+let vardas = 2;
+
 let text1 = "Hello";
 let text2 = "world!";
 let result = text1.concat(text1, text2);
@@ -67,6 +72,7 @@ const baldai = ["lempa", "lentynos", "sofa", "stalas"];
     console.log(baldai)
     baldai.unshift("spintele", "kede");
     console.log(baldai)
+
 
 
 
