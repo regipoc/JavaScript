@@ -128,15 +128,33 @@ for (let i = 0; i < activities.length; i++) {
   }
   }
 
-  //WHILE LOOP  
+  /*
   const SLAPTAS_SKAICIUS = 52;
-let spejimas = parseFloat(prompt('Spekite skaiciu')); 52
-while(spejimas !== SLAPTAS_SKAICIUS) { // false
-  spejimas = parseFloat(prompt('Spekite skaiciu'));
+  let spejimas = parseFloat(prompt('Spekite skaiciu')); 52
+  while(spejimas !== SLAPTAS_SKAICIUS) { // false
+    spejimas = parseFloat(prompt('Spekite skaiciu'));
+  }
+  */
+
+  const skaiciai2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
+const skaic3 =[]
+
+ 
+ for (let i of skaiciai2){ 
+     console.log(i**2)
+ }
+
+ for (let i of skaiciai2){ 
+    console.log(i**2)
+    skaic3.push(i**2)
 }
 
-// FOR  OF LOOP
-const skaiciai2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
-for (let i of skaiciai2) {
-  console.log(i)
-}
+ //for (let i of skaiciai2) {
+   // console.log(i)
+ // }
+
+ const todoList = [
+    'Pradeti nuo q komandos', 
+    'panaudoti prompt, kad gauti duomenis', 
+    'panaudoti simbolius ir console atskirti vienai uzduociai nuo kitos'
+    ];
