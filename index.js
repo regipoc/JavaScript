@@ -27,14 +27,6 @@ let kitasVardas = 'Mano vardas Yra';
 console.log(kitasVardas.charAt(5));
 
 
-let vardas = 2;
-let vardas = 2;
-let vardas = 2;
-
-let text1 = "Hello";
-let text2 = "world!";
-let result = text1.concat(text1, text2);
-
 let data = 1;
 if (data>2) console.log (true);
 if (data<2) console.log (false);
@@ -73,6 +65,21 @@ const baldai = ["lempa", "lentynos", "sofa", "stalas"];
     baldai.unshift("spintele", "kede");
     console.log(baldai)
 
+// FOR LOOP
+for (let i=1; i <= 0; i++){
+  console.log(i)
+}
+//uzduotis parasyti loop kuris prades grazinti skaicius nuo 0 iki 20 ir is skaiciu atims 4, paskutinis kaicius 0.
+let skaicius = 1;
+for (let i = 20; i >=0; i = i - 4){
+console.log(i)
+}
 
+//uzduotis parasyti loop, kuris isspausdins i konsole visus lyginius skaicius nuo i iki 17
+const Skaičiai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ,17]
+for (let i = 0; i <= Skaičiai.length -1; i++) {
+  if(Skaičiai [i] % 2 ===0 )
+  console.log(Skaičiai [i])
+}
 
-
+const myArr = ["One", "Two", "Sofa", "Stalas", "test"]
