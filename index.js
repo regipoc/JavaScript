@@ -82,4 +82,61 @@ for (let i = 0; i <= Skaičiai.length -1; i++) {
   console.log(Skaičiai [i])
 }
 
+//kaip isvesti visas reiksmes i konsole, pradedant nuo paskutines
 const myArr = ["One", "Two", "Sofa", "Stalas", "test"]
+for (let i = myArr.length-1; i >=0; i--) {
+  console.log(myArr[i]);
+}
+// kaip pereiti per visa array ir isvesti i console skaicius kurie didesni uz 8.
+const skaiciai = [0, 5, 29, 23, 4, 5, 2, 5, 24, 89, 6, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
+const daugiauneiAstuoni = [];
+for (let i = 0; i <=skaiciai.length; i++) {
+  if (skaiciai [i] >8){
+    daugiauneiAstuoni.push(skaiciai [i])
+  }
+}
+console.log (daugiauneiAstuoni)
+
+// naudojantis for loop'u surasti didziausia skaiciu
+const numberArr = [2, 45,3, 67, 34, 567, 34, 345, 123];
+let didziausiasSkaicius = 0;
+for (let i = 0; i <= numberArr.length -1; i++){
+if (didziausiasSkaicius < numberArr[i]){
+didziausiasSkaicius = numberArr[i];
+}
+}
+// Nested loops
+for (let isorinis = 1; isorinis <= 4; isorinis++){
+  console.log(`Isorinis loop'as sukasi ${isorinis} karta`)
+  for(let vidinis = 1; vidinis < 5; vidinis++) {
+    console.log(`  Vidinis loopas sukasi ${vidinis} karta`)
+  }
+}
+
+//uzduotis isivesti i console visas reiksmes nurodyti kokios eilutes reiksmes isvedama
+const activities = [
+  ["work, 9"],
+  ["eat", 1],
+  ["commute", 2],
+  ["play game", 1],
+  ["sleep", 7]
+];
+for (let i = 0; i < activities.length; i++) {
+  console.log("Eitule ${i+1}")
+  for (let j = 0; j < activities[i].length; j++){
+    console.log(activities[i][j])
+  }
+  }
+
+  //WHILE LOOP  
+  const SLAPTAS_SKAICIUS = 52;
+let spejimas = parseFloat(prompt('Spekite skaiciu')); 52
+while(spejimas !== SLAPTAS_SKAICIUS) { // false
+  spejimas = parseFloat(prompt('Spekite skaiciu'));
+}
+
+// FOR  OF LOOP
+const skaiciai2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
+for (let i of skaiciai2) {
+  console.log(i)
+}
