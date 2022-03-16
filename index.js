@@ -158,3 +158,19 @@ const skaic3 =[]
     'panaudoti prompt, kad gauti duomenis', 
     'panaudoti simbolius ir console atskirti vienai uzduociai nuo kitos'
     ];
+    const todoList = [
+      'Pradeti nuo q komandos', 
+      'panaudoti prompt, kad gauti duomenis', 
+      'panaudoti simbolius ir console atskirti vienai uzduociai nuo kitos'
+      ];
+    
+    
+    let vartotojoIvestaKomanda = prompt('Kokia yra jusu sekanti komanda')
+    
+    while(vartotojoIvestaKomanda !== 'quit') {
+      if (vartotojoIvestaKomanda === 'list') {
+        vartotojoIvestaKomanda = prompt('Iveskite nauja darba i darbu sarasa')
+        todoList.push(vartotojoIvestaKomanda)
+      } else if ()
+      vartotojoIvestaKomanda = prompt('Kokia yra jusu sekanti komanda')
+    }  
