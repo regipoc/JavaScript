@@ -269,4 +269,80 @@ function kartotiniai(startinisSkaicius, galinisSkaicius){
 }
 kartotiniai(0, 100)
 
-const learnmore
+// uzduotis parasyti funkcija, kuri priima Stringa
+// ir grazina ta pati stinga su prima ir paskutine raide didziosiomis 
+// gali buti vienas zodis gali buti keli
+// pradziai padarykite kad tik stingo pirma ir paskutine raide padidina
+// Bonus uzduotis papildyti funkcija, kad pakeistu visu zodziu stinge pirmas ir paskutines raides
+function capitalize(str) {
+  const arrayFromString = str.split(' ');
+  const newArr = []
+  for (let i = 0; i < arrayFromString.length; i++) {
+    let ilgisMinusVienas = arrayFromString[i].length - 1;
+    if(arrayFromString[i].length === 1) {
+      newArr.push(arrayFromString[i][0].toUpperCase());
+    } else {
+      let capitalizedString = arrayFromString[i][0].toUpperCase() +
+      arrayFromString[i].slice(1, arrayFromString[i].length -2) + 
+      arrayFromString[i][ilgisMinusVienas].toUpperCase()
+     newArr.push(capitalizedString)
+    }
+  }
+}
+
+capitalize('hkweki mwewqwy name iqweqws weqpw i o')
+
+// Uzduotis parasyti funkcija kuri surusiuos skaicius esancius masyve nuo didziausio iki maziausio
+const randomNumbers = [1, 22, 543, 2, 6, 12, 55, 86, 6, 9, 12, 31, 51, 92, 3]
+// isvesti nauja masyva i console
+function rusiuotiSkaiciusNuoDidziausio(randomNumbers) {
+  function compare(a, b) {
+      if (a > b) {
+          return -1;
+function rastiDidziausiaSkaiciu(randomNumbers) {
+  return randomNumbers.sort(compare)
+}
+
+/ Parasyti funkcija kuri suras vidurini zenkla Stringe ir isves ji i console
+// jei stringe yra nelyginis sibloliu skaicius, isvedame vidurini simboli
+// jei lyginis, du vidurinius
+
+function grazinkViduriniSimboli(str){
+ if (str.length % 2 === 0) { // lengt = 8
+  // lyginis - 1 = nelyginis 
+  // pirmas sprendimo budas
+   let index = Math.floor((str.length - 1) / 2); // susirasti pirmo vidurinio stringo indexa
+   console.log(str.slice(index, index + 2)) // pridedu 2 nes slice, neitraukia end indexo, todel + 1 netinka
+    // gaunasi kad cia yra slice(1, 1 + 2)
+    // antras sprendimo budas
+   console.log(str.slice(str.length/2-1, str.length/2+1)); 
+} else {
+  ///         [ T e s s i ] .length() - grazins 5
+  ///         [ 0 1 2 3 4 ]
+  let index = (str.length - 1) / 2;
+  console.log(index); 
+  console.log(str[index]) // str[2]
+  }
+}
+
+//kitas sprendimo budas
+grazinkViduriniSimboli('Tessi')
+
+function getMidSymbol(text){
+
+  let midIndex = parseInt(text.length / 2);
+  console.log(midIndex);
+
+  if(text.length % 2 === 0){
+      return `${text[midIndex -1]}${text[midIndex]}`;
+  }
+  
+  return text[midIndex];
+}
+
+console.log(getMidSymbol("asdasdasdasd"))
+
+// uzduotis suskikurti objekta kvadrato
+// sukurti du metodus (plotas ir perimetras) kurie priims krastines ilgi
+// kvadrato.plotas(10)  - grazins 100
+// kvadrato.perimetras(10) - 40
