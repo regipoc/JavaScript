@@ -1,4 +1,4 @@
-//Skaičiai
+/* //Skaičiai
 //1+2
 let naujiMetai=25;
 
@@ -25,13 +25,13 @@ atsakymas = `${name} ${othername} man yra ${dabartiniaimetai - gimimometai}`
 console.log(atsakymas);
 let kitasVardas = 'Mano vardas Yra';
 console.log(kitasVardas.charAt(5));
+ */
 
-
-let data = 1;
+/* let data = 1;
 if (data>2) console.log (true);
-if (data<2) console.log (false);
+if (data<2) console.log (false); */
 
-let ivestaSuma = prompt('Jusu moketina suma yra:')
+/* let ivestaSuma = prompt('Jusu moketina suma yra:')
 let arbatpinigiai = 0;
 let galutinesuma;
 
@@ -45,9 +45,9 @@ if (ivestaSuma <= 20) {
 galutinesuma = `Visa sumoketa suma ${ivestaSuma + arbatpinigiai}
  arbatpinigiai yra ${arbatpinigiai} saskaita buvo ${ivestaSuma}
 `
-console.log(galutinesuma)
+console.log(galutinesuma) */
 
-let number = parseInt(prompt('enter the number'));
+/* let number = parseInt(prompt('enter the number'));
 switch(number) {
     case 1:
     console.log('print 1')
@@ -67,66 +67,65 @@ const baldai = ["lempa", "lentynos", "sofa", "stalas"];
 
 // FOR LOOP
 for (let i=1; i <= 0; i++){
-  console.log(i)
-}
-//uzduotis parasyti loop kuris prades grazinti skaicius nuo 0 iki 20 ir is skaiciu atims 4, paskutinis kaicius 0.
+  console.log(i) */
+
+/* //uzduotis parasyti loop kuris prades grazinti skaicius nuo 0 iki 20 ir is skaiciu atims 4, paskutinis kaicius 0.
 let skaicius = 1;
 for (let i = 20; i >=0; i = i - 4){
 console.log(i)
-}
+} */
 
 //uzduotis parasyti loop, kuris isspausdins i konsole visus lyginius skaicius nuo i iki 17
-const Skaičiai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ,17]
+/* const Skaičiai = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ,17]
 for (let i = 0; i <= Skaičiai.length -1; i++) {
   if(Skaičiai [i] % 2 ===0 )
-  console.log(Skaičiai [i])
-}
+  console.log(Skaičiai [i]) */
 
 //kaip isvesti visas reiksmes i konsole, pradedant nuo paskutines
-const myArr = ["One", "Two", "Sofa", "Stalas", "test"]
+/* const myArr = ["One", "Two", "Sofa", "Stalas", "test"]
 for (let i = myArr.length-1; i >=0; i--) {
   console.log(myArr[i]);
-}
+} */
 // kaip pereiti per visa array ir isvesti i console skaicius kurie didesni uz 8.
-const skaiciai = [0, 5, 29, 23, 4, 5, 2, 5, 24, 89, 6, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
+/* const skaiciai = [0, 5, 29, 23, 4, 5, 2, 5, 24, 89, 6, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
 const daugiauneiAstuoni = [];
 for (let i = 0; i <=skaiciai.length; i++) {
   if (skaiciai [i] >8){
     daugiauneiAstuoni.push(skaiciai [i])
   }
 }
-console.log (daugiauneiAstuoni)
+console.log (daugiauneiAstuoni) */
 
 // naudojantis for loop'u surasti didziausia skaiciu
-const numberArr = [2, 45,3, 67, 34, 567, 34, 345, 123];
+/* const numberArr = [2, 45,3, 67, 34, 567, 34, 345, 123];
 let didziausiasSkaicius = 0;
 for (let i = 0; i <= numberArr.length -1; i++){
 if (didziausiasSkaicius < numberArr[i]){
 didziausiasSkaicius = numberArr[i];
 }
-}
+} */
 // Nested loops
-for (let isorinis = 1; isorinis <= 4; isorinis++){
+/* for (let isorinis = 1; isorinis <= 4; isorinis++){
   console.log(`Isorinis loop'as sukasi ${isorinis} karta`)
   for(let vidinis = 1; vidinis < 5; vidinis++) {
     console.log(`  Vidinis loopas sukasi ${vidinis} karta`)
   }
-}
+} */
 
 //uzduotis isivesti i console visas reiksmes nurodyti kokios eilutes reiksmes isvedama
-const activities = [
+/* const activities = [
   ["work, 9"],
   ["eat", 1],
   ["commute", 2],
   ["play game", 1],
   ["sleep", 7]
-];
-for (let i = 0; i < activities.length; i++) {
+]; */
+/* for (let i = 0; i < activities.length; i++) {
   console.log("Eitule ${i+1}")
   for (let j = 0; j < activities[i].length; j++){
     console.log(activities[i][j])
   }
-  }
+  } */
 
   /*
   const SLAPTAS_SKAICIUS = 52;
@@ -136,24 +135,21 @@ for (let i = 0; i < activities.length; i++) {
   }
   */
 
-  const skaiciai2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
+ /*  const skaiciai2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16];
 const skaic3 =[]
-
- 
  for (let i of skaiciai2){ 
      console.log(i**2)
  }
-
  for (let i of skaiciai2){ 
     console.log(i**2)
     skaic3.push(i**2)
 }
-
+ */
  //for (let i of skaiciai2) {
    // console.log(i)
  // }
 
- const todoList = ["Pradeti nuo q komandos", 
+ /* const todoList = ["Pradeti nuo q komandos", 
   "panaudoti prompt, kad gauti duomenis", 
   "panaudoti simbolius ir console atskirti vienai uzduociai nuo kitos"
   ];
@@ -179,9 +175,9 @@ while(vartotojoIvestaKomanda !== "quit") {
     vartotojoIvestaKomanda = "quit"
     console.log("Ivesta neteisinga komanda")
   }
-}
+} */
 //FUNKCIJOS
-function duSkaiciai(skaicius, laipsnis) {
+/* function duSkaiciai(skaicius, laipsnis) {
   console.log(skaicius ** laipsnis)
   duSkaiciai(5, 4)
 
@@ -196,12 +192,12 @@ function duSkaiciai(skaicius, laipsnis) {
     console.log(Math.max(a,b))
   }
 }
-  
+   */
 // kokiaTaiDiena(8)
 // Parasyti funkcija kuri priims dienos numeri 1, 2, ... 7
 // ivedus 1 funkcija turetu isspausdinti pirmadienis 
 // 2 - antradienis ir t.t.
-function kokiaTaiDiena(num){
+/* function kokiaTaiDiena(num){
   if (num === 1) {
     console.log('Siandien yra pirmadienis');
   } else if (num === 2) {
@@ -210,10 +206,10 @@ function kokiaTaiDiena(num){
     console.log('Savaiteje tokios dienos nera')
   }
 }
-console.log (getDay)
+console.log (getDay) */
 
 //Uzduotis susumuoti visus skaicius masyve. 
-const sudetiVisusSkaicius = [12, 4, 16, 3, 8, 9, 'hi', 12, 2, 1, 5, 3, 9, 55, 292, 13, undefined]
+/* const sudetiVisusSkaicius = [12, 4, 16, 3, 8, 9, 'hi', 12, 2, 1, 5, 3, 9, 55, 292, 13, undefined]
 
 function sudetiVisusMasyvoSkaicius(arr) {
   let sum = 0;
@@ -223,9 +219,9 @@ function sudetiVisusMasyvoSkaicius(arr) {
     }
   }
   console.log(sum)
-}
+} */
 
-sudetiVisusMasyvoSkaicius(sudetiVisusSkaicius)
+// sudetiVisusMasyvoSkaicius(sudetiVisusSkaicius)
 
 // uzduotis parasyti funckija kuri startini ir galini skaiciu
 // musu atveju naudosime skaicius nuo 0 iki 100
@@ -238,7 +234,7 @@ sudetiVisusMasyvoSkaicius(sudetiVisusSkaicius)
 // 'Koks tai skaicius - triju ir penkiu kartotinis"
 // galiausiai i konsole isvesti tris masyvus kuriuose bus
 // triju, penkiu bei triju ir penkiu kartotiniai
-function kartotiniai(startinisSkaicius, galinisSkaicius){
+/* function kartotiniai(startinisSkaicius, galinisSkaicius){
   // const skaiciai = Array.from(Array(100).keys());
   const skaiciai = [];  
   const trijuKartotiniai = [];
@@ -250,9 +246,9 @@ function kartotiniai(startinisSkaicius, galinisSkaicius){
 
   if (15 % 5 == 0) {
     console.log('hi')
-  }
+  } */
 
-  for (let i = 0; i < skaiciai.length; i++) {
+  /* for (let i = 0; i < skaiciai.length; i++) {
     if (skaiciai[i] % 3 === 0 && skaiciai[i] % 5 === 0) {
       trijuIrPenkiuKartotiniai.push(skaiciai[i])
       // trijuKartotiniai.push(skaiciai[i]);
@@ -268,13 +264,13 @@ function kartotiniai(startinisSkaicius, galinisSkaicius){
   console.log('bendri', trijuIrPenkiuKartotiniai)
 }
 kartotiniai(0, 100)
-
+ */
 // uzduotis parasyti funkcija, kuri priima Stringa
 // ir grazina ta pati stinga su prima ir paskutine raide didziosiomis 
 // gali buti vienas zodis gali buti keli
 // pradziai padarykite kad tik stingo pirma ir paskutine raide padidina
 // Bonus uzduotis papildyti funkcija, kad pakeistu visu zodziu stinge pirmas ir paskutines raides
-function capitalize(str) {
+/* function capitalize(str) {
   const arrayFromString = str.split(' ');
   const newArr = []
   for (let i = 0; i < arrayFromString.length; i++) {
@@ -288,12 +284,12 @@ function capitalize(str) {
      newArr.push(capitalizedString)
     }
   }
-}
+} */
 
-capitalize('hkweki mwewqwy name iqweqws weqpw i o')
+// capitalize('hkweki mwewqwy name iqweqws weqpw i o')
 
 // Uzduotis parasyti funkcija kuri surusiuos skaicius esancius masyve nuo didziausio iki maziausio
-const randomNumbers = [1, 22, 543, 2, 6, 12, 55, 86, 6, 9, 12, 31, 51, 92, 3]
+/* const randomNumbers = [1, 22, 543, 2, 6, 12, 55, 86, 6, 9, 12, 31, 51, 92, 3]
 // isvesti nauja masyva i console
 function rusiuotiSkaiciusNuoDidziausio(randomNumbers) {
   function compare(a, b) {
@@ -302,12 +298,12 @@ function rusiuotiSkaiciusNuoDidziausio(randomNumbers) {
 function rastiDidziausiaSkaiciu(randomNumbers) {
   return randomNumbers.sort(compare)
 }
-
-/ Parasyti funkcija kuri suras vidurini zenkla Stringe ir isves ji i console
+ */
+// Parasyti funkcija kuri suras vidurini zenkla Stringe ir isves ji i console
 // jei stringe yra nelyginis sibloliu skaicius, isvedame vidurini simboli
 // jei lyginis, du vidurinius
 
-function grazinkViduriniSimboli(str){
+/* function grazinkViduriniSimboli(str){
  if (str.length % 2 === 0) { // lengt = 8
   // lyginis - 1 = nelyginis 
   // pirmas sprendimo budas
@@ -323,9 +319,9 @@ function grazinkViduriniSimboli(str){
   console.log(index); 
   console.log(str[index]) // str[2]
   }
-}
+} */
 
-//kitas sprendimo budas
+/* //kitas sprendimo budas
 grazinkViduriniSimboli('Tessi')
 
 function getMidSymbol(text){
@@ -341,8 +337,124 @@ function getMidSymbol(text){
 }
 
 console.log(getMidSymbol("asdasdasdasd"))
-
+ */
 // uzduotis suskikurti objekta kvadrato
 // sukurti du metodus (plotas ir perimetras) kurie priims krastines ilgi
 // kvadrato.plotas(10)  - grazins 100
 // kvadrato.perimetras(10) - 40
+
+//THIS
+
+/* const oldSyntax = {
+  boom: 14,
+  vardas: 'Jonas',
+  pridekDvylika: function(item) {
+    console.log(item + this.boom)
+  },
+  kitas: function(){
+    console.log('labas')
+  }
+}
+oldSyntax.pridekDvylika(12) // situo atveju this ieskau
+// oldSyntax viduje
+let newAdd12 = oldSyntax.pridekDvylika;
+// yra tas pats kas 
+// let newAdd12 = function(item) {
+  //   console.log(item + this.boom)
+  // },
+
+newAdd12(8) */
+// This priklauso nuo to kaip buvo iskviesta funkcija 
+// oldSyntax.pridekDvylika(8) // this priklausys nuo to kas kviecia funkcija
+// siuo atveju funkcija kviecia odlSyntax -> todel this refferins i oldSyntax vidu
+
+/* const knygosApieProgramavima = [
+  {
+    title: "The Pragmatic Programmer",
+    author: 'David Thomas',
+    goodReadsRating: 4.33,
+    numberOfRatings: 18579
+  },
+  {
+    title: "Clean Code",
+    author: 'Robert C. Martin',
+    goodReadsRating: 4.39,
+    numberOfRatings: 18094
+  },
+  {
+    title: "The Clean Coder",
+    author: 'Robert C. Martin',
+    goodReadsRating: 4.28,
+    numberOfRatings: 7459
+  },
+  {
+    title: "The Effective Engineer",
+    author: 'Edmond Lau',
+    goodReadsRating: 4.28,
+    numberOfRatings: 1401
+  },
+  {
+    title: "Eloquent JavaScript",
+    author: 'Marijn Haverbeke',
+    goodReadsRating: 4.15,
+    numberOfRatings: 2680
+  }
+]
+white_check_mark
+eyes
+raised_hands
+function grazintiPavadinima(knyga) {
+  return knyga.title
+} */
+// primas ratas 
+// grazintiPavadinima(
+//   {
+//     title: "The Pragmatic Programmer",
+//     author: 'David Thomas',
+//     goodReadsRating: 4.33,
+//     numberOfRatings: 18579
+//   }
+// )
+// funkcija grazina item.title --> "The Pragmatic Programmer"
+// ["The Pragmatic Programmer" ]
+
+/* // antras ratas ["The Pragmatic Programmer", "Clean Code"]
+ const knygupavadinimai = knygosApieProgramavima.map(grazintiPavadinima)
+ // pirmo callo metu grazintiPavadinima[knygosApieProgramavima[0]]
+console.log(knygupavadinimai)
+// console.log(knygosApieProgramavima[1].author)
+ */
+
+let myImg = document.querySelector('img');
+let myH1 = document.querySelector('h1')
+let container = document.getElementById('container')
+container.style.width = '300px'
+container.style.height = '300px'
+container.style.border = '2px solid gray'
+myImg.style.borderRadius = '50%';
+myImg.style.width = '70%';
+myImg.style.margin = '0 auto'
+myH1.style.textAlign = 'center'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
